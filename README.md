@@ -8,9 +8,18 @@ JavaScript ve React yolculuğumda öğrendiklerimi, takıldığım yerleri ve il
 
 ---
 
-## 📈 Aktivite
+## 📈 GitHub istatistikleri
 
-![Aktivite grafiği](https://github-readme-activity-graph.vercel.app/graph?username=lordgrimx&theme=github-compact&hide_border=true)
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lordgrimx&theme=github_dark" alt="GitHub profil özeti" width="100%">
+</p>
+
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lordgrimx&theme=github_dark" alt="GitHub istatistikleri" width="49%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lordgrimx&theme=github_dark" alt="Dillere göre repolar" width="49%">
+</p>
+
+<sub>Kartlar <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a> tarafından üretiliyor.</sub>
 
 ## 🆕 Son öğrendiğim: JS Event Loop
 
