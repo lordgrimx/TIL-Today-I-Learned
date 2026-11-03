@@ -12,10 +12,10 @@ JavaScript ve React yolculuğumda öğrendiklerimi, takıldığım yerleri ve il
 
 ## 🎯 Genel ilerleme
 
-| Alan | İlerleme |
-|------|----------|
+| Alan       | İlerleme           |
+| ---------- | ------------------ |
 | JavaScript | `██░░░░░░░░` 1 / 6 |
-| React | `███░░░░░░░` 2 / 7 |
+| React      | `███░░░░░░░` 2 / 7 |
 
 ```mermaid
 pie title Konu durumu
@@ -33,26 +33,28 @@ pie title Konu durumu
 
 ### JavaScript
 
-| Konu | Durum | Not |
-|------|:-----:|-----|
-| map / filter | 🟢 | – |
-| reduce | 🔴 | [js/reduce.md](js/reduce.md) |
-| destructuring & spread | ⚪ | – |
-| async / await & fetch | ⚪ | – |
-| closure | ⚪ | – |
-| array & object metodları | ⚪ | – |
+| Konu                     | Durum | Not                                |
+| ------------------------ | :---: | ---------------------------------- |
+| map / filter             |  🟢   | –                                  |
+| reduce                   |  🔴   | [js/reduce.md](js/reduce.md)       |
+| destructuring & spread   |   ⚪   | –                                  |
+| async / await & fetch    |   ⚪   | –                                  |
+| closure                  |   ⚪   | –                                  |
+| array & object metodları |   ⚪   | –                                  |
+| JS Event Loop            |  🟡   | [js/eventLoop.md](js/eventLoop.md) |
+|                          |       |                                    |
 
 ### React
 
-| Konu | Durum | Not |
-|------|:-----:|-----|
-| useState & useEffect | 🟡 | – |
-| useMemo | 🟡 | [react/useMemo.md](react/useMemo.md) |
-| React.memo | 🟡 | [react/react-memo.md](react/react-memo.md) |
-| custom hook | 🔴 | [react/custom-hook.md](react/custom-hook.md) |
-| useContext | ⚪ | – |
-| useReducer | ⚪ | – |
-| useCallback | ⚪ | – |
+| Konu                 | Durum | Not                                          |
+| -------------------- | :---: | -------------------------------------------- |
+| useState & useEffect |  🟡   | –                                            |
+| useMemo              |  🟡   | [react/useMemo.md](react/useMemo.md)         |
+| React.memo           |  🟡   | [react/react-memo.md](react/react-memo.md)   |
+| custom hook          |  🔴   | [react/custom-hook.md](react/custom-hook.md) |
+| useContext           |   ⚪   | –                                            |
+| useReducer           |   ⚪   | –                                            |
+| useCallback          |   ⚪   | –                                            |
 
 ---
 
