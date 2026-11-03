@@ -62,22 +62,21 @@ pie title Konu durumu
 
 ### React
 
-| Konu                 | Durum | Not                                          |
-| -------------------- | :---: | -------------------------------------------- |
-| useState & useEffect |  🟡   | –                                            |
-| useMemo              |  🟡   | [react/useMemo.md](react/useMemo.md)         |
-| React.memo           |  🟡   | [react/react-memo.md](react/react-memo.md)   |
-| custom hook          |  🔴   | [react/custom-hook.md](react/custom-hook.md) |
-| useContext           |   ⚪   | –                                            |
-| useReducer           |   ⚪   | –                                            |
-| useCallback          |   ⚪   | –                                            |
-
-> Not: React not dosyaları (`react/`) henüz repoda yok; oluşturulunca bağlantılar çalışacak.
+| Konu                 | Durum | Not |
+| -------------------- | :---: | --- |
+| useState & useEffect |  🟡   | –   |
+| useMemo              |  🟡   | –   |
+| React.memo           |  🟡   | –   |
+| custom hook          |  🔴   | –   |
+| useContext           |   ⚪   | –   |
+| useReducer           |   ⚪   | –   |
+| useCallback          |   ⚪   | –   |
 
 ---
 
 ## 📓 Günlük
 
+- [Kasım 2026](gunluk/2026-11.md)
 - **3 Kasım 2026 · TIL Day 1:** JS Event Loop ve event lifecycle – [not](js/eventLoop.md)
 
 ---
