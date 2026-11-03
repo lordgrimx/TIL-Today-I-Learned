@@ -32,21 +32,22 @@ JavaScript ve React yolculuğumda öğrendiklerimi, takıldığım yerleri ve il
 | JavaScript | `███░░░░░░░` |     2 / 7     |
 | React      | `█████░░░░░` |     4 / 7     |
 
-_İlerleme, ⚪ dışındaki (başladığım) konu sayısını gösterir._
+_İlerleme, 🔴 (Başlamadım) dışındaki konu sayısını gösterir._
 
 ```mermaid
+%%{init: {"themeVariables": {"pie1": "#2ea043", "pie2": "#d29922", "pie3": "#1f6feb", "pie4": "#da3633", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOpacity": "1"}}}%%
 pie title Konu durumu
     "🟢 Kendim yazabiliyorum" : 1
     "🟡 Docs'la yazabiliyorum" : 4
-    "🔴 Öğreniyorum" : 2
-    "⚪ Başlamadım" : 7
+    "🔵 Öğreniyorum" : 2
+    "🔴 Başlamadım" : 7
 ```
 
 ---
 
 ## 🗂️ Konular
 
-**Durumlar:** ⚪ Başlamadım · 🔴 Öğreniyorum · 🟡 Docs'a bakarak yazabiliyorum · 🟢 Kendim yazabiliyorum
+**Durumlar:** 🔴 Başlamadım · 🔵 Öğreniyorum · 🟡 Docs'a bakarak yazabiliyorum · 🟢 Kendim yazabiliyorum
 
 ### JavaScript
 
@@ -54,11 +55,11 @@ pie title Konu durumu
 | ------------------------ | :---: | ---------------------------------- |
 | map / filter             |  🟢   | –                                  |
 | JS Event Loop            |  🟡   | [js/eventLoop.md](js/eventLoop.md) |
-| reduce                   |  🔴   | [js/reduce.md](js/reduce.md)       |
-| destructuring & spread   |   ⚪   | –                                  |
-| async / await & fetch    |   ⚪   | –                                  |
-| closure                  |   ⚪   | –                                  |
-| array & object metodları |   ⚪   | –                                  |
+| reduce                   |  🔵   | [js/reduce.md](js/reduce.md)       |
+| destructuring & spread   |   🔴   | –                                  |
+| async / await & fetch    |   🔴   | –                                  |
+| closure                  |   🔴   | –                                  |
+| array & object metodları |   🔴   | –                                  |
 
 ### React
 
@@ -67,10 +68,10 @@ pie title Konu durumu
 | useState & useEffect |  🟡   | –   |
 | useMemo              |  🟡   | –   |
 | React.memo           |  🟡   | –   |
-| custom hook          |  🔴   | –   |
-| useContext           |   ⚪   | –   |
-| useReducer           |   ⚪   | –   |
-| useCallback          |   ⚪   | –   |
+| custom hook          |  🔵   | –   |
+| useContext           |   🔴   | –   |
+| useReducer           |   🔴   | –   |
+| useCallback          |   🔴   | –   |
 
 ---
 
