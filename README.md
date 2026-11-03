@@ -29,8 +29,8 @@ JavaScript ve React yolculuğumda öğrendiklerimi, takıldığım yerleri ve il
 
 | Alan       | İlerleme   | Başlanan konu |
 | ---------- | ---------- | :-----------: |
-| JavaScript | `███░░░░░░░` |     2 / 7     |
-| React      | `█████░░░░░` |     4 / 7     |
+| JavaScript | `████░░░░░░` |     3 / 7     |
+| React      | `░░░░░░░░░░` |     0 / 7     |
 
 _İlerleme, 🔴 (Başlamadım) dışındaki konu sayısını gösterir._
 
@@ -38,9 +38,9 @@ _İlerleme, 🔴 (Başlamadım) dışındaki konu sayısını gösterir._
 %%{init: {"themeVariables": {"pie1": "#2ea043", "pie2": "#d29922", "pie3": "#1f6feb", "pie4": "#da3633", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOpacity": "1"}}}%%
 pie title Konu durumu
     "🟢 Kendim yazabiliyorum" : 1
-    "🟡 Docs'la yazabiliyorum" : 4
-    "🔵 Öğreniyorum" : 2
-    "🔴 Başlamadım" : 7
+    "🟡 Docs'la yazabiliyorum" : 1
+    "🔵 Öğreniyorum" : 1
+    "🔴 Başlamadım" : 11
 ```
 
 ---
@@ -65,10 +65,10 @@ pie title Konu durumu
 
 | Konu                 | Durum | Not |
 | -------------------- | :---: | --- |
-| useState & useEffect |  🟡   | –   |
-| useMemo              |  🟡   | –   |
-| React.memo           |  🟡   | –   |
-| custom hook          |  🔵   | –   |
+| useState & useEffect |  🔴   | –   |
+| useMemo              |  🔴   | –   |
+| React.memo           |  🔴   | –   |
+| custom hook          |  🔴   | –   |
 | useContext           |   🔴   | –   |
 | useReducer           |   🔴   | –   |
 | useCallback          |   🔴   | –   |
