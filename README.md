@@ -1,10 +1,10 @@
 # 📚 TIL – Today I Learned
 
-JavaScript ve React yolculuğumda öğrendiklerimi, takıldığım yerleri ve ilerlememi tuttuğum yer.
+JavaScript, React ve web güvenliği yolculuğumda öğrendiklerimi, takıldığım yerleri ve ilerlememi tuttuğum yer.
 
 **Kural:** Bir konuyu ancak AI'a ya da docs'a bakmadan kendim yazabildiğimde 🟢 yaparım.
 
-**Son güncelleme:** 3 Kasım 2026 · TIL Day 1
+**Son güncelleme:** 5 Kasım 2026 · TIL Day 3
 
 ---
 
@@ -21,25 +21,22 @@ JavaScript ve React yolculuğumda öğrendiklerimi, takıldığım yerleri ve il
 
 <sub>Kartlar <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a> tarafından üretiliyor.</sub>
 
-## 🆕 Son öğrendiğim: JS Event Loop
+## 🆕 Son öğrendiğim: Web güvenliği temelleri
 
-> [js/eventLoop.md](js/eventLoop.md)
+> [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md)
 
-<img src="eventLoop1.png" alt="JS Event Loop diyagramı" width="640">
-
-- JavaScript **tek thread** üzerinde çalışır ve tek bir **call stack**'i vardır; aynı anda yalnızca bir fonksiyon yürütülür.
-- `setTimeout`, ağ isteği, kullanıcı event'i gibi işleri JS motoru değil **host ortam** (tarayıcı / Node) yürütür; iş bitince callback'leri kuyruğa koyar.
-- Event loop her turda **bir macrotask** çalıştırır (ilk tur script'in kendisi), ardından **microtask kuyruğunu tamamen** boşaltır, sonra render'a fırsat verir.
-- `Promise.then`, `queueMicrotask` ve `await` sonrası kod microtask; `setTimeout` macrotask olduğu için Promise callback'i her zaman `setTimeout(fn, 0)`'dan önce çalışır.
-- Promise executor'ı ve `async` fonksiyonun ilk `await`'e kadarki kısmı **senkron** çalışır.
-- Sonsuz microtask zinciri render'ı engeller (**microtask starvation**); ağır işi parçalayıp macrotask ile yield etmek gerekir.
+- **SQL Injection'a karşı birincil önlem parametreli sorgular.** Kullanıcı girdisi sorgu metnine string birleştirmeyle değil, ayrı parametre olarak verilir; böylece veri hiçbir zaman SQL kodu olarak yorumlanmaz.
+- **Şifreler DB'de bilerek yavaş hash'lenen bir algoritmayla saklanır.** MD5/SHA gibi hızlı hash'ler değil; maliyeti ayarlanabilir bcrypt, scrypt veya Argon2 + benzersiz salt kullanılır.
+- **CORS bir izin mekanizmasıdır, koruma değildir.** Tarayıcının başka origin'den gelen cevabı okuyup okuyamayacağını belirler; API'yi saldırılardan korumaz (auth, CSRF ve rate limiting ayrıca gerekir).
+- **Origin = scheme + host + port.** `https://example.com` ile `https://example.com:8443` farklı origin'dir; port yazılmasa da varsayılan port hesaba katılır (HTTPS **443**, HTTP **80**).
 
 ## 🎯 Genel ilerleme
 
-| Alan       | İlerleme   | Başlanan konu |
-| ---------- | ---------- | :-----------: |
-| JavaScript | `████░░░░░░` |     3 / 7     |
-| React      | `░░░░░░░░░░` |     0 / 7     |
+| Alan           | İlerleme   | Başlanan konu |
+| -------------- | ---------- | :-----------: |
+| JavaScript     | `████░░░░░░` |     3 / 7     |
+| React          | `░░░░░░░░░░` |     0 / 7     |
+| Web Güvenliği  | `██████████` |     4 / 4     |
 
 _İlerleme, 🔴 (Başlamadım) dışındaki konu sayısını gösterir._
 
@@ -48,7 +45,7 @@ _İlerleme, 🔴 (Başlamadım) dışındaki konu sayısını gösterir._
 pie title Konu durumu
     "🟢 Kendim yazabiliyorum" : 1
     "🟡 Docs'la yazabiliyorum" : 1
-    "🔵 Öğreniyorum" : 1
+    "🔵 Öğreniyorum" : 5
     "🔴 Başlamadım" : 11
 ```
 
@@ -82,12 +79,23 @@ pie title Konu durumu
 | useReducer           |   🔴   | –   |
 | useCallback          |   🔴   | –   |
 
+### Web & Güvenlik
+
+| Konu                        | Durum | Not                                               |
+| --------------------------- | :---: | ------------------------------------------------- |
+| SQL Injection               |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
+| Şifre saklama & hash'leme   |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
+| CORS                        |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
+| Origin & portlar            |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
+
 ---
 
 ## 📓 Günlük
 
 - [Kasım 2026](gunluk/2026-11.md)
 - **3 Kasım 2026 · TIL Day 1:** JS Event Loop ve event lifecycle – [not](js/eventLoop.md)
+- **4 Kasım 2026 · TIL Day 2:** Array metodları (map / filter / reduce / find / some / every / forEach) – [not](js/map-filter-reduce-find-some-foreach-every.md)
+- **5 Kasım 2026 · TIL Day 3:** Web güvenliği (SQL Injection, şifre hash'leme, CORS, Origin) – [not](guvenlik/web-guvenligi.md)
 
 ---
 
