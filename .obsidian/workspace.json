@@ -194,8 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7bb6cdd18373ffd",
+  "active": "53a85fdf82f26e6a",
   "lastOpenFiles": [
+    "scripts/update-progress.mjs",
+    "scripts",
+    "CONTRIBUTING.md",
     "kaynaklar/react.md",
     "react/1-react-temelleri/component-lifecycle-rendering.md",
     "componenetLifeCycle.png",
@@ -223,7 +226,6 @@
     "web-security/6-test-ve-pentest/vulnerability-scanning.md",
     "web-security/6-test-ve-pentest/security-reporting.md",
     "web-security/6-test-ve-pentest/reconnaissance.md",
-    "web-security/6-test-ve-pentest/owasp-wstg.md",
     "web-security/7-ileri-guvenlik",
     "web-security/6-test-ve-pentest",
     "web-security/5-modern-uygulama-guvenligi",
@@ -232,7 +234,6 @@
     "web-security/2-client-side-guvenlik",
     "web-security/1-web-guvenligi-temelleri",
     "web-security",
-    "react/7-production",
     "eventLoop1.png"
   ]
 }
