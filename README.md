@@ -69,6 +69,8 @@ pie title Konu durumu
 
 ### React
 
+> Detaylı yol haritası ve konu şablonları: [react/README.md](react/README.md)
+
 | Konu                 | Durum | Not |
 | -------------------- | :---: | --- |
 | useState & useEffect |  🔴   | –   |
