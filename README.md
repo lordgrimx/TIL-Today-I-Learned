@@ -23,7 +23,7 @@ JavaScript, React ve web güvenliği yolculuğumda öğrendiklerimi, takıldığ
 
 ## 🆕 Son öğrendiğim: Web güvenliği temelleri
 
-> [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md)
+> [web-security/README.md](web-security/README.md)
 
 - **SQL Injection'a karşı birincil önlem parametreli sorgular.** Kullanıcı girdisi sorgu metnine string birleştirmeyle değil, ayrı parametre olarak verilir; böylece veri hiçbir zaman SQL kodu olarak yorumlanmaz.
 - **Şifreler DB'de bilerek yavaş hash'lenen bir algoritmayla saklanır.** MD5/SHA gibi hızlı hash'ler değil; maliyeti ayarlanabilir bcrypt, scrypt veya Argon2 + benzersiz salt kullanılır.
@@ -60,8 +60,8 @@ pie title Konu durumu
 | Konu                     | Durum | Not                                |
 | ------------------------ | :---: | ---------------------------------- |
 | map / filter             |  🟢   | –                                  |
-| JS Event Loop            |  🟡   | [js/eventLoop.md](js/eventLoop.md) |
-| reduce                   |  🔵   | [js/reduce.md](js/reduce.md)       |
+| JS Event Loop            |  🟡   | [javascript/3-asenkron-javascript/event-loop.md](javascript/3-asenkron-javascript/event-loop.md) |
+| reduce                   |  🔵   | [javascript/4-modern-javascript-es6/array-methods.md](javascript/4-modern-javascript-es6/array-methods.md)       |
 | destructuring & spread   |   🔴   | –                                  |
 | async / await & fetch    |   🔴   | –                                  |
 | closure                  |   🔴   | –                                  |
@@ -87,10 +87,10 @@ pie title Konu durumu
 
 | Konu                        | Durum | Not                                               |
 | --------------------------- | :---: | ------------------------------------------------- |
-| SQL Injection               |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
-| Şifre saklama & hash'leme   |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
-| CORS                        |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
-| Origin & portlar            |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
+| SQL Injection               |  🔵   | [web-security/4-api-backend-guvenlik/sql-injection.md](web-security/4-api-backend-guvenlik/sql-injection.md) |
+| Şifre saklama & hash'leme   |  🔵   | [web-security/3-auth-guvenlik/password-hashing.md](web-security/3-auth-guvenlik/password-hashing.md) |
+| CORS                        |  🔵   | [web-security/1-web-guvenligi-temelleri/cors.md](web-security/1-web-guvenligi-temelleri/cors.md) |
+| Origin & portlar            |  🔵   | [web-security/1-web-guvenligi-temelleri/same-origin-policy.md](web-security/1-web-guvenligi-temelleri/same-origin-policy.md) |
 
 > Detaylı yol haritası ve konu şablonları: [web-security/README.md](web-security/README.md)
 
@@ -107,9 +107,9 @@ pie title Konu durumu
 ## 📓 Günlük
 
 - [Kasım 2026](gunluk/2026-11.md)
-- **3 Kasım 2026 · TIL Day 1:** JS Event Loop ve event lifecycle – [not](js/eventLoop.md)
-- **4 Kasım 2026 · TIL Day 2:** Array metodları (map / filter / reduce / find / some / every / forEach) – [not](js/map-filter-reduce-find-some-foreach-every.md)
-- **5 Kasım 2026 · TIL Day 3:** Web güvenliği (SQL Injection, şifre hash'leme, CORS, Origin) – [not](guvenlik/web-guvenligi.md)
+- **3 Kasım 2026 · TIL Day 1:** JS Event Loop ve event lifecycle – [not](javascript/3-asenkron-javascript/event-loop.md)
+- **4 Kasım 2026 · TIL Day 2:** Array metodları (map / filter / reduce / find / some / every / forEach) – [not](javascript/4-modern-javascript-es6/array-methods.md)
+- **5 Kasım 2026 · TIL Day 3:** Web güvenliği (SQL Injection, şifre hash'leme, CORS, Origin) – [not](web-security/README.md)
 
 ---
 

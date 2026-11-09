@@ -48,7 +48,7 @@ Temel JavaScript'ten ileri konulara, tarayıcı API'lerinden performans ve engin
 - [ ] Promise.allSettled → [3-asenkron-javascript/promise-allsettled.md](3-asenkron-javascript/promise-allsettled.md)
 - [ ] async / await → [3-asenkron-javascript/async-await.md](3-asenkron-javascript/async-await.md)
 - [ ] Error Handling → [3-asenkron-javascript/error-handling.md](3-asenkron-javascript/error-handling.md)
-- [ ] Event Loop → [3-asenkron-javascript/event-loop.md](3-asenkron-javascript/event-loop.md)
+- [x] Event Loop → [3-asenkron-javascript/event-loop.md](3-asenkron-javascript/event-loop.md)
 - [ ] Microtask vs Macrotask → [3-asenkron-javascript/microtask-vs-macrotask.md](3-asenkron-javascript/microtask-vs-macrotask.md)
 
 ## 4. Modern JavaScript (ES6+)
@@ -63,7 +63,7 @@ Temel JavaScript'ten ileri konulara, tarayıcı API'lerinden performans ve engin
 - [ ] Generators → [4-modern-javascript-es6/generators.md](4-modern-javascript-es6/generators.md)
 - [ ] Symbols → [4-modern-javascript-es6/symbols.md](4-modern-javascript-es6/symbols.md)
 - [ ] Proxy ve Reflect → [4-modern-javascript-es6/proxy-reflect.md](4-modern-javascript-es6/proxy-reflect.md)
-- [ ] Array Methods → [4-modern-javascript-es6/array-methods.md](4-modern-javascript-es6/array-methods.md)
+- [x] Array Methods → [4-modern-javascript-es6/array-methods.md](4-modern-javascript-es6/array-methods.md)
 
 ## 5. Browser JavaScript
 

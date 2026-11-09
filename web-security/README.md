@@ -14,8 +14,8 @@ Web güvenliğinin temellerinden uygulamalı saldırı-savunma çalışmalarına
 
 - [ ] HTTP / HTTPS → [1-web-guvenligi-temelleri/http-https.md](1-web-guvenligi-temelleri/http-https.md)
 - [ ] TLS / SSL → [1-web-guvenligi-temelleri/tls-ssl.md](1-web-guvenligi-temelleri/tls-ssl.md)
-- [ ] Same-Origin Policy → [1-web-guvenligi-temelleri/same-origin-policy.md](1-web-guvenligi-temelleri/same-origin-policy.md)
-- [ ] CORS → [1-web-guvenligi-temelleri/cors.md](1-web-guvenligi-temelleri/cors.md)
+- [x] Same-Origin Policy → [1-web-guvenligi-temelleri/same-origin-policy.md](1-web-guvenligi-temelleri/same-origin-policy.md)
+- [x] CORS → [1-web-guvenligi-temelleri/cors.md](1-web-guvenligi-temelleri/cors.md)
 - [ ] DNS ve Domain Security → [1-web-guvenligi-temelleri/dns-domain-security.md](1-web-guvenligi-temelleri/dns-domain-security.md)
 - [ ] Cookies ve Security Attributes → [1-web-guvenligi-temelleri/cookies-security-attributes.md](1-web-guvenligi-temelleri/cookies-security-attributes.md)
 - [ ] Authentication vs Authorization → [1-web-guvenligi-temelleri/authentication-vs-authorization.md](1-web-guvenligi-temelleri/authentication-vs-authorization.md)
@@ -45,7 +45,7 @@ Web güvenliğinin temellerinden uygulamalı saldırı-savunma çalışmalarına
 - [ ] OpenID Connect → [3-auth-guvenlik/openid-connect.md](3-auth-guvenlik/openid-connect.md)
 - [ ] Access / Refresh Tokens → [3-auth-guvenlik/access-refresh-tokens.md](3-auth-guvenlik/access-refresh-tokens.md)
 - [ ] Secure Cookie Storage → [3-auth-guvenlik/secure-cookie-storage.md](3-auth-guvenlik/secure-cookie-storage.md)
-- [ ] Password Hashing (Argon2 / bcrypt) → [3-auth-guvenlik/password-hashing.md](3-auth-guvenlik/password-hashing.md)
+- [x] Password Hashing (Argon2 / bcrypt) → [3-auth-guvenlik/password-hashing.md](3-auth-guvenlik/password-hashing.md)
 - [ ] Multi-Factor Authentication → [3-auth-guvenlik/mfa.md](3-auth-guvenlik/mfa.md)
 - [ ] Broken Access Control → [3-auth-guvenlik/broken-access-control.md](3-auth-guvenlik/broken-access-control.md)
 
@@ -54,7 +54,7 @@ Web güvenliğinin temellerinden uygulamalı saldırı-savunma çalışmalarına
 - [ ] REST API Security → [4-api-backend-guvenlik/rest-api-security.md](4-api-backend-guvenlik/rest-api-security.md)
 - [ ] API Authentication → [4-api-backend-guvenlik/api-authentication.md](4-api-backend-guvenlik/api-authentication.md)
 - [ ] Rate Limiting → [4-api-backend-guvenlik/rate-limiting.md](4-api-backend-guvenlik/rate-limiting.md)
-- [ ] SQL Injection → [4-api-backend-guvenlik/sql-injection.md](4-api-backend-guvenlik/sql-injection.md)
+- [x] SQL Injection → [4-api-backend-guvenlik/sql-injection.md](4-api-backend-guvenlik/sql-injection.md)
 - [ ] NoSQL Injection → [4-api-backend-guvenlik/nosql-injection.md](4-api-backend-guvenlik/nosql-injection.md)
 - [ ] SSRF → [4-api-backend-guvenlik/ssrf.md](4-api-backend-guvenlik/ssrf.md)
 - [ ] IDOR / BOLA → [4-api-backend-guvenlik/idor-bola.md](4-api-backend-guvenlik/idor-bola.md)
