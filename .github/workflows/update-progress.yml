@@ -1,0 +1,48 @@
+name: Update roadmap progress
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - 'scripts/update-progress.mjs'
+      - '.github/workflows/update-progress.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Aynı anda iki çalıştırma README'yi birbirine ezmesin.
+concurrency:
+  group: update-progress-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # Botun kendi commit'i yeni bir çalıştırma başlatmasın (ek koruma: commit mesajında [skip ci] de var).
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Recalculate progress
+        run: node scripts/update-progress.mjs
+
+      - name: Commit README if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README değişmedi, commit atlanıyor."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: yol haritası ilerlemesini güncelle [skip ci]"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
