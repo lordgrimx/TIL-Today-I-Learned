@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1487c7ed51a5129a",
+        "id": "392a5587cab5d368",
         "type": "tabs",
         "children": [
           {
-            "id": "7b08c399d28e8225",
+            "id": "68a14b8a8151cddd",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "javascript/4-modern-javascript-es6/array-methods.md",
-                "bFile": "javascript/4-modern-javascript-es6/array-methods.md",
-                "aRef": ""
+                "file": "react/1-react-temelleri/component-lifecycle-rendering.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: array-methods  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "component-lifecycle-rendering"
             }
           }
         ]
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "react/1-react-temelleri/component-lifecycle-rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,11 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b08c399d28e8225",
+  "active": "68a14b8a8151cddd",
   "lastOpenFiles": [
+    "react/1-react-temelleri/componenetLifeCycle.png",
+    "javascript/2-ileri-javascript/call-stack.md",
+    "web-security/README.md",
     "react/1-react-temelleri/component-lifecycle-rendering.md",
     "CONTRIBUTING.md",
-    "react/1-react-temelleri/componenetLifeCycle.png",
     "javascript/4-modern-javascript-es6/array-methods.md",
     "README.md",
     "javascript/1-javascript-temelleri/variables-var-let-const.md",
@@ -213,7 +216,6 @@
     "scripts",
     "kaynaklar/react.md",
     "web-security/4-api-backend-guvenlik/sql-injection.md",
-    "web-security/README.md",
     "js/eventLoop.md",
     "javascript/3-asenkron-javascript/eventLoop1.png",
     "kaynaklar/web-security.md",
@@ -229,7 +231,6 @@
     "web-security/7-ileri-guvenlik/cicd-security.md",
     "web-security/7-ileri-guvenlik/browser-isolation.md",
     "web-security/7-ileri-guvenlik/advanced-csp.md",
-    "web-security/6-test-ve-pentest/xss-sqli-lab-exercises.md",
     "web-security/7-ileri-guvenlik",
     "web-security/6-test-ve-pentest",
     "web-security/5-modern-uygulama-guvenligi",
