@@ -67,6 +67,8 @@ pie title Konu durumu
 | closure                  |   🔴   | –                                  |
 | array & object metodları |   🔴   | –                                  |
 
+> Detaylı yol haritası ve konu şablonları: [javascript/README.md](javascript/README.md)
+
 ### React
 
 > Detaylı yol haritası ve konu şablonları: [react/README.md](react/README.md)
@@ -89,6 +91,16 @@ pie title Konu durumu
 | Şifre saklama & hash'leme   |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
 | CORS                        |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
 | Origin & portlar            |  🔵   | [guvenlik/web-guvenligi.md](guvenlik/web-guvenligi.md) |
+
+> Detaylı yol haritası ve konu şablonları: [web-security/README.md](web-security/README.md)
+
+---
+
+## 📚 Öğrenilen Kaynaklar
+
+> Kitap, doküman, video ve kurs listeleri: [kaynaklar/README.md](kaynaklar/README.md)
+
+- [React](kaynaklar/react.md) · [JavaScript](kaynaklar/javascript.md) · [Web Güvenliği](kaynaklar/web-security.md)
 
 ---
 

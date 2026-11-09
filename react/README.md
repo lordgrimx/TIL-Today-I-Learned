@@ -6,6 +6,8 @@ Frontend gelişim yolum: temel React'ten ileri React, TypeScript, Next.js ve pro
 
 **Şu anki durum:** useState, useEffect, useRef ve useMemo tamam. Sıradaki konu: **useCallback → React.memo → Custom Hooks**.
 
+**Kaynaklar:** [kaynaklar/react.md](../kaynaklar/react.md)
+
 ---
 
 ## 1. React temellerini tamamla
