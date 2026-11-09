@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe2a4f70d504b52",
+        "id": "4e22784e8d2df744",
         "type": "tabs",
         "children": [
           {
-            "id": "7829055fe2c7c9c1",
+            "id": "b7bb6cdd18373ffd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "js/map-filter-reduce-find-some-foreach-every.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "map-filter-reduce-find-some-foreach-every"
+              "title": "Yeni sekme"
             }
           }
         ]
@@ -55,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SQL INJEC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js/eventLoop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Anahat"
             }
+          },
+          {
+            "id": "53a85fdf82f26e6a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,17 +190,49 @@
       "daily-notes:Bugünün Notunu Aç": false,
       "templates:Şablon ekle": false,
       "command-palette:Komut paletini aç": false,
-      "bases:Yeni taban oluştur": false
+      "bases:Yeni taban oluştur": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7829055fe2c7c9c1",
+  "active": "b7bb6cdd18373ffd",
   "lastOpenFiles": [
-    "js/map-filter-reduce-find-some-foreach-every.md",
-    "js/eventLoop.md",
-    "file://iz-fs/Yazılım/DEHA ANALİZLER/Kalite_Kontrol_Numune_Gruplamasi_Analizi.pdf",
-    "eventLoop1.png",
+    "kaynaklar/react.md",
+    "react/1-react-temelleri/component-lifecycle-rendering.md",
+    "componenetLifeCycle.png",
+    "web-security/4-api-backend-guvenlik/sql-injection.md",
+    "web-security/README.md",
     "README.md",
-    "js/reduce.md",
-    "js"
+    "kaynaklar/javascript.md",
+    "js/eventLoop.md",
+    "javascript/3-asenkron-javascript/eventLoop1.png",
+    "guvenlik/roadmap-0.md",
+    "kaynaklar/web-security.md",
+    "kaynaklar/README.md",
+    "kaynaklar",
+    "web-security/7-ileri-guvenlik/zero-trust.md",
+    "web-security/7-ileri-guvenlik/threat-modeling.md",
+    "web-security/7-ileri-guvenlik/security-monitoring.md",
+    "web-security/7-ileri-guvenlik/security-architecture.md",
+    "web-security/7-ileri-guvenlik/secure-sdlc.md",
+    "web-security/7-ileri-guvenlik/cryptography-fundamentals.md",
+    "web-security/7-ileri-guvenlik/container-security.md",
+    "web-security/7-ileri-guvenlik/cicd-security.md",
+    "web-security/7-ileri-guvenlik/browser-isolation.md",
+    "web-security/7-ileri-guvenlik/advanced-csp.md",
+    "web-security/6-test-ve-pentest/xss-sqli-lab-exercises.md",
+    "web-security/6-test-ve-pentest/vulnerability-scanning.md",
+    "web-security/6-test-ve-pentest/security-reporting.md",
+    "web-security/6-test-ve-pentest/reconnaissance.md",
+    "web-security/6-test-ve-pentest/owasp-wstg.md",
+    "web-security/7-ileri-guvenlik",
+    "web-security/6-test-ve-pentest",
+    "web-security/5-modern-uygulama-guvenligi",
+    "web-security/4-api-backend-guvenlik",
+    "web-security/3-auth-guvenlik",
+    "web-security/2-client-side-guvenlik",
+    "web-security/1-web-guvenligi-temelleri",
+    "web-security",
+    "react/7-production",
+    "eventLoop1.png"
   ]
 }

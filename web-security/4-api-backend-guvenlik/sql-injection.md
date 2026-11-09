@@ -14,4 +14,9 @@ db.query("SELECT * FROM users WHERE email = $1", [email]);
 
 - ORM veya query builder kullanmak tek başına garanti değildir; ham SQL yazılan yerde de parametre kullanılmalı.
 - Ek katmanlar: en az yetkili DB kullanıcısı, input validation, WAF. Ama bunlar **birincil** önlem değildir.
+## SQL Enjeksiyonu Başarısının Etkileri
+- Hassas verilere (`şifre, kredi kartı, kişisel bilgiler`) yetkisiz erişim 
+- İtibar kaybı ve yasal cezalar
+- Sistemlerde uzun süreli kalıcı arka kapı (**backdoor**) riski
+
 
