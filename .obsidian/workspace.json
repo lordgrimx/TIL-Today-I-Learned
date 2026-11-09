@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4e22784e8d2df744",
+        "id": "1487c7ed51a5129a",
         "type": "tabs",
         "children": [
           {
-            "id": "b7bb6cdd18373ffd",
+            "id": "7b08c399d28e8225",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "CONTRIBUTING.md",
-                "bFile": "CONTRIBUTING.md",
+                "aFile": "javascript/4-modern-javascript-es6/array-methods.md",
+                "bFile": "javascript/4-modern-javascript-es6/array-methods.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: CONTRIBUTING  (Working Tree)"
+              "title": "Diff: array-methods  (Working Tree)"
             }
           }
         ]
@@ -198,17 +198,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7bb6cdd18373ffd",
+  "active": "7b08c399d28e8225",
   "lastOpenFiles": [
+    "react/1-react-temelleri/component-lifecycle-rendering.md",
     "CONTRIBUTING.md",
+    "react/1-react-temelleri/componenetLifeCycle.png",
+    "javascript/4-modern-javascript-es6/array-methods.md",
     "README.md",
+    "javascript/1-javascript-temelleri/variables-var-let-const.md",
+    "javascript/README.md",
     "guvenlik/roadmap-0.md",
     "kaynaklar/javascript.md",
     "scripts/update-progress.mjs",
     "scripts",
     "kaynaklar/react.md",
-    "react/1-react-temelleri/component-lifecycle-rendering.md",
-    "componenetLifeCycle.png",
     "web-security/4-api-backend-guvenlik/sql-injection.md",
     "web-security/README.md",
     "js/eventLoop.md",
@@ -227,9 +230,6 @@
     "web-security/7-ileri-guvenlik/browser-isolation.md",
     "web-security/7-ileri-guvenlik/advanced-csp.md",
     "web-security/6-test-ve-pentest/xss-sqli-lab-exercises.md",
-    "web-security/6-test-ve-pentest/vulnerability-scanning.md",
-    "web-security/6-test-ve-pentest/security-reporting.md",
-    "web-security/6-test-ve-pentest/reconnaissance.md",
     "web-security/7-ileri-guvenlik",
     "web-security/6-test-ve-pentest",
     "web-security/5-modern-uygulama-guvenligi",
