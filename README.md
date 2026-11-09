@@ -32,13 +32,65 @@ JavaScript, React ve web güvenliği yolculuğumda öğrendiklerimi, takıldığ
 
 ## 🎯 Genel ilerleme
 
-| Alan           | İlerleme   | Başlanan konu |
-| -------------- | ---------- | :-----------: |
-| JavaScript     | `████░░░░░░` |     3 / 7     |
-| React          | `░░░░░░░░░░` |     0 / 7     |
-| Web Güvenliği  | `██████████` |     4 / 4     |
+<!-- PROGRESS:START -->
 
-_İlerleme, 🔴 (Başlamadım) dışındaki konu sayısını gösterir._
+| Klasör | Tamamlanan | Toplam | Oran | İlerleme |
+| --- | :---: | :---: | :---: | --- |
+| [JavaScript](javascript/README.md) | 2 | 77 | 3% | `░░░░░░░░░░` |
+| [React](react/README.md) | 3 | 61 | 5% | `█░░░░░░░░░` |
+| [Web Güvenliği](web-security/README.md) | 4 | 72 | 6% | `█░░░░░░░░░` |
+| **Toplam** | **9** | **210** | **4%** | `░░░░░░░░░░` |
+
+<details>
+<summary><b>JavaScript</b>: aşamalara göre</summary>
+
+| Aşama | Tamamlanan | Toplam | Oran | İlerleme |
+| --- | :---: | :---: | :---: | --- |
+| 1. JavaScript Fundamentals | 0 | 10 | 0% | `░░░░░░░░░░` |
+| 2. Advanced JavaScript | 0 | 12 | 0% | `░░░░░░░░░░` |
+| 3. Asynchronous JavaScript | 1 | 12 | 8% | `█░░░░░░░░░` |
+| 4. Modern JavaScript (ES6+) | 1 | 11 | 9% | `█░░░░░░░░░` |
+| 5. Browser JavaScript | 0 | 12 | 0% | `░░░░░░░░░░` |
+| 6. JavaScript Performance | 0 | 9 | 0% | `░░░░░░░░░░` |
+| 7. JavaScript Internals ve İleri Konular | 0 | 11 | 0% | `░░░░░░░░░░` |
+
+</details>
+
+<details>
+<summary><b>React</b>: aşamalara göre</summary>
+
+| Aşama | Tamamlanan | Toplam | Oran | İlerleme |
+| --- | :---: | :---: | :---: | --- |
+| 1. React temellerini tamamla | 3 | 9 | 33% | `███░░░░░░░` |
+| 2. İleri React | 0 | 9 | 0% | `░░░░░░░░░░` |
+| 3. TypeScript | 0 | 8 | 0% | `░░░░░░░░░░` |
+| 4. Modern frontend ekosistemi | 0 | 8 | 0% | `░░░░░░░░░░` |
+| 5. Next.js | 0 | 12 | 0% | `░░░░░░░░░░` |
+| 6. Testing ve kalite | 0 | 7 | 0% | `░░░░░░░░░░` |
+| 7. Production seviyesinde geliştirme | 0 | 8 | 0% | `░░░░░░░░░░` |
+
+</details>
+
+<details>
+<summary><b>Web Güvenliği</b>: aşamalara göre</summary>
+
+| Aşama | Tamamlanan | Toplam | Oran | İlerleme |
+| --- | :---: | :---: | :---: | --- |
+| 1. Web Security Fundamentals | 2 | 9 | 22% | `██░░░░░░░░` |
+| 2. Client-Side Security | 0 | 11 | 0% | `░░░░░░░░░░` |
+| 3. Authentication & Authorization Security | 1 | 10 | 10% | `█░░░░░░░░░` |
+| 4. API & Backend Security | 1 | 11 | 9% | `█░░░░░░░░░` |
+| 5. Modern Web Application Security | 0 | 10 | 0% | `░░░░░░░░░░` |
+| 6. Security Testing & Pentesting | 0 | 11 | 0% | `░░░░░░░░░░` |
+| 7. Advanced Security | 0 | 10 | 0% | `░░░░░░░░░░` |
+
+</details>
+
+_Bu tablo `scripts/update-progress.mjs` ile üretilir, elle düzenlemeyin. Kurallar için [CONTRIBUTING.md](CONTRIBUTING.md)._
+
+<!-- PROGRESS:END -->
+
+**Konu durumu** (🔴🔵🟡🟢 etiketleri, aşağıdaki Konular tablosundan elle güncellenir):
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#2ea043", "pie2": "#d29922", "pie3": "#1f6feb", "pie4": "#da3633", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOpacity": "1"}}}%%
