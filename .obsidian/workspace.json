@@ -11,14 +11,14 @@
             "id": "b7bb6cdd18373ffd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "guvenlik/roadmap-0.md",
-                "mode": "source",
-                "source": false
+                "aFile": "CONTRIBUTING.md",
+                "bFile": "CONTRIBUTING.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "roadmap-0"
+              "icon": "diff",
+              "title": "Diff: CONTRIBUTING  (Working Tree)"
             }
           }
         ]
@@ -99,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guvenlik/roadmap-0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,19 +200,19 @@
   },
   "active": "b7bb6cdd18373ffd",
   "lastOpenFiles": [
+    "CONTRIBUTING.md",
+    "README.md",
+    "guvenlik/roadmap-0.md",
     "kaynaklar/javascript.md",
     "scripts/update-progress.mjs",
     "scripts",
-    "CONTRIBUTING.md",
     "kaynaklar/react.md",
     "react/1-react-temelleri/component-lifecycle-rendering.md",
     "componenetLifeCycle.png",
     "web-security/4-api-backend-guvenlik/sql-injection.md",
     "web-security/README.md",
-    "README.md",
     "js/eventLoop.md",
     "javascript/3-asenkron-javascript/eventLoop1.png",
-    "guvenlik/roadmap-0.md",
     "kaynaklar/web-security.md",
     "kaynaklar/README.md",
     "kaynaklar",
