@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/1-react-temelleri/component-lifecycle-rendering.md",
+                "file": "react/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "component-lifecycle-rendering"
+              "title": "README"
             }
           }
         ]
@@ -201,13 +201,15 @@
   },
   "active": "68a14b8a8151cddd",
   "lastOpenFiles": [
+    "react/1-react-temelleri/usecallback.md",
+    "react/README.md",
+    "README.md",
+    "react/1-react-temelleri/component-lifecycle-rendering.md",
     "react/1-react-temelleri/componenetLifeCycle.png",
     "javascript/2-ileri-javascript/call-stack.md",
     "web-security/README.md",
-    "react/1-react-temelleri/component-lifecycle-rendering.md",
     "CONTRIBUTING.md",
     "javascript/4-modern-javascript-es6/array-methods.md",
-    "README.md",
     "javascript/1-javascript-temelleri/variables-var-let-const.md",
     "javascript/README.md",
     "guvenlik/roadmap-0.md",
@@ -230,7 +232,6 @@
     "web-security/7-ileri-guvenlik/container-security.md",
     "web-security/7-ileri-guvenlik/cicd-security.md",
     "web-security/7-ileri-guvenlik/browser-isolation.md",
-    "web-security/7-ileri-guvenlik/advanced-csp.md",
     "web-security/7-ileri-guvenlik",
     "web-security/6-test-ve-pentest",
     "web-security/5-modern-uygulama-guvenligi",

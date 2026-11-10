@@ -15,7 +15,7 @@ Frontend gelişim yolum: temel React'ten ileri React, TypeScript, Next.js ve pro
 - [x] useState, useEffect → [1-react-temelleri/usestate-useeffect.md](1-react-temelleri/usestate-useeffect.md)
 - [x] useRef → [1-react-temelleri/useref.md](1-react-temelleri/useref.md)
 - [x] useMemo → [1-react-temelleri/usememo.md](1-react-temelleri/usememo.md)
-- [ ] useCallback → [1-react-temelleri/usecallback.md](1-react-temelleri/usecallback.md)
+- [x] useCallback → [1-react-temelleri/usecallback.md](1-react-temelleri/usecallback.md)
 - [ ] React.memo → [1-react-temelleri/react-memo.md](1-react-temelleri/react-memo.md)
 - [ ] Custom Hooks → [1-react-temelleri/custom-hooks.md](1-react-temelleri/custom-hooks.md)
 - [ ] Context API → [1-react-temelleri/context-api.md](1-react-temelleri/context-api.md)
