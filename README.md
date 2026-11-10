@@ -37,9 +37,9 @@ JavaScript, React ve web güvenliği yolculuğumda öğrendiklerimi, takıldığ
 | Klasör | Tamamlanan | Toplam | Oran | İlerleme |
 | --- | :---: | :---: | :---: | --- |
 | [JavaScript](javascript/README.md) | 2 | 77 | 3% | `░░░░░░░░░░` |
-| [React](react/README.md) | 3 | 61 | 5% | `█░░░░░░░░░` |
+| [React](react/README.md) | 4 | 61 | 7% | `█░░░░░░░░░` |
 | [Web Güvenliği](web-security/README.md) | 4 | 72 | 6% | `█░░░░░░░░░` |
-| **Toplam** | **9** | **210** | **4%** | `░░░░░░░░░░` |
+| **Toplam** | **10** | **210** | **5%** | `█░░░░░░░░░` |
 
 <details>
 <summary><b>JavaScript</b>: aşamalara göre</summary>
@@ -61,7 +61,7 @@ JavaScript, React ve web güvenliği yolculuğumda öğrendiklerimi, takıldığ
 
 | Aşama | Tamamlanan | Toplam | Oran | İlerleme |
 | --- | :---: | :---: | :---: | --- |
-| 1. React temellerini tamamla | 3 | 9 | 33% | `███░░░░░░░` |
+| 1. React temellerini tamamla | 4 | 9 | 44% | `████░░░░░░` |
 | 2. İleri React | 0 | 9 | 0% | `░░░░░░░░░░` |
 | 3. TypeScript | 0 | 8 | 0% | `░░░░░░░░░░` |
 | 4. Modern frontend ekosistemi | 0 | 8 | 0% | `░░░░░░░░░░` |
